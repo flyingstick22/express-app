@@ -12,7 +12,7 @@ jobs:
     name: Publish image to Docker Hub
     runs-on: ubuntu-latest
     steps:
-    # Checkout to the repository
+    # Checkout to the repo
     - uses: actions/checkout@v3
 
     # We need to login so we can later push the image without issues.
